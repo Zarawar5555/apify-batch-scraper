@@ -6,18 +6,16 @@ Apify.main(async () => {
     
     // Your complete URL list - REPLACE WITH YOUR ACTUAL URLS
     const allUrls = [
-        'https://domain1.com/page1',
-        'https://domain1.com/page2',
-        'https://domain2.com/category1',
-        'https://domain2.com/category2',
-        'https://domain3.com/products',
-        'https://example1.com',
-        'https://example2.com',
-        'https://example3.com',
-        'https://example4.com',
-        'https://example5.com',
-        // Add all your 1000+ URLs here
-        // 'https://your-domain.com/path',
+        'https://grittechs.com',
+        'https://gritzarts.com',
+        'https://grizzly.co',
+        'https://grnbostonnorth.com',
+        'https://grnoakbrook.com',
+        'https://gromarketing.com',
+        'https://grofire.com',
+        'https://groliveapps.com',
+        'https://grooters.us',
+        'https://grootsvaluation.com'
     ];
     
     // Get current batch info from input or default to first batch
