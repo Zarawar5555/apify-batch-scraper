@@ -1,0 +1,26 @@
+{
+  "name": "apify-batch-url-scraper",
+  "version": "1.0.0",
+  "description": "Scrape multiple domains in scheduled batches to avoid timeouts",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Your Name",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "apify": "^3.1.10",
+    "puppeteer": "^21.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/apify-batch-scraper"
+  },
+  "keywords": [
+    "apify",
+    "scraper",
+    "batch-processing",
+    "web-scraping",
+    "puppeteer"
+  ]
+}

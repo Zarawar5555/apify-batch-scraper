@@ -1,0 +1,23 @@
+{
+  "title": "Batch URL Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "currentBatch": {
+      "title": "Current Batch Number",
+      "type": "integer",
+      "description": "Which batch to process (starts from 0). Leave blank to start from beginning.",
+      "default": 0,
+      "minimum": 0
+    },
+    "urlsPerBatch": {
+      "title": "URLs per Batch",
+      "type": "integer",
+      "description": "How many URLs to process in each batch. Lower numbers = more stable, higher numbers = faster processing.",
+      "default": 5,
+      "minimum": 1,
+      "maximum": 50
+    }
+  },
+  "required": []
+}
